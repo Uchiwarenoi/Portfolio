@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trois projets : Akwaba Health, Amazon Scraper, Analyse comparative.">
+  <title>Ce que j'ai fait | Coulibaly Tenena Louis Melvine</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Sora:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Feuille de style séparée -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top site-nav">
+    <div class="container-xl">
+      <a class="navbar-brand" href="index.html">
+        <span class="brand-name">COULIBALY TENENA LOUIS MELVINE</span>
+        <span class="brand-sub">Étudiant en L2 informatique Génie Logiciel</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="qui-je-suis.html">Qui je suis</a></li>
+          <li class="nav-item"><a class="nav-link" href="savoir-faire.html">Ce que je sais faire</a></li>
+          <li class="nav-item"><a class="nav-link active" href="realisations.html" aria-current="page">Ce que j'ai fait</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">Mon Cv</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Me contacter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="block page-top">
+      <div class="container-xl">
+        <p class="section-label">Ce que j'ai fait</p>
+        <h2 class="title">mes projets</h2>
+        <p class="subtitle">trois réalisations</p>
+
+        <article class="project">
+          <div class="row g-4 g-lg-5">
+            <div class="col-12 col-lg-3"><span class="num">01</span></div>
+            <div class="col-12 col-lg-6">
+              <h3 class="project-title">Akwaba Health</h3>
+              <p class="project-kind">application mobile</p>
+              <p class="small-text">Une application mobile de carnet de santé digitale permettant à chaque utilisateur de stocker, consulter et partager facilement ses données médicales personnelles — à tout moment, n'importe où.</p>
+              <ul class="tags"><li>Flutter</li><li>Dart</li><li>Firebase Auth</li><li>Firestore</li><li>Firebase Storage</li></ul>
+              <a class="btn-line" href="https://github.com/Uchiwarenoi/akwaba_health" target="_blank" rel="noopener">Voir sur GitHub &rarr;</a>
+            </div>
+            <div class="col-8 col-sm-5 col-lg-3">
+              <img src="images/akwaba-1.jpg" class="img-cover phone-shot" alt="Écran d'accueil de l'application Akwaba Health : logo et message de bienvenue">
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="row g-4 g-lg-5">
+            <div class="col-12 col-lg-3"><span class="num">02</span></div>
+            <div class="col-12 col-lg-9">
+              <h3 class="project-title">Amazon Scraper</h3>
+              <p class="project-kind">projet de cours &middot; Python</p>
+              <p class="small-text">Application console qui recherche des produits informatiques sur Amazon avec Selenium, extrait le nom, le prix, l'URL et l'image de chaque produit, télécharge les images, enregistre les produits dans une base SQLite et exporte les données en CSV. Le code suit une architecture MVC.</p>
+              <ul class="tags"><li>Python</li><li>Selenium</li><li>SQLite</li><li>CSV</li><li>MVC</li></ul>
+              <a class="btn-line" href="https://github.com/Uchiwarenoi/amazon_scraper_projet" target="_blank" rel="noopener">Voir sur GitHub &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="row g-4 g-lg-5">
+            <div class="col-12 col-lg-3"><span class="num">03</span></div>
+            <div class="col-12 col-lg-9">
+              <h3 class="project-title">Analyse comparative de marché</h3>
+              <p class="project-kind">projet de cours &middot; Python</p>
+              <p class="small-text">Compare les prix de trois enseignes à partir de fichiers CSV, JSON et Excel : chargement des données, nettoyage avec journal des anomalies, rapprochement avec un catalogue de 30 références, comparatif des prix, panier de rentrée, analyse de la semaine du Black Friday et mesure des performances (recherche naïve contre recherche indexée). Les données de l'exercice sont fictives.</p>
+              <ul class="tags"><li>Python</li><li>CSV</li><li>JSON</li><li>Excel</li><li>Analyse de données</li></ul>
+              <a class="btn-line" href="https://github.com/Uchiwarenoi/analyseComparativeMagasin" target="_blank" rel="noopener">Voir sur GitHub &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <p class="small-text mt-5 mb-0">Retrouvez l'ensemble de mes dépôts sur <a href="https://github.com/Uchiwarenoi" target="_blank" rel="noopener"><u>github.com/Uchiwarenoi</u></a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-xl d-flex flex-column flex-sm-row justify-content-between gap-1">
+      <span>&copy; 2026 Coulibaly Tenena Louis Melvine</span>
+      <a href="https://github.com/Uchiwarenoi" target="_blank" rel="noopener">github.com/Uchiwarenoi</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
